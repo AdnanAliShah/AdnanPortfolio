@@ -1,0 +1,19 @@
+@import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  background-color: #0a0a0a; /* same as footer bg */
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; /* pushes footer down */
+}
