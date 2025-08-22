@@ -12,7 +12,7 @@ export default function About() {
       <div className="max-w-6xl w-full text-center flex flex-col items-center">
         
         {/* Profile Image on Top */}
-        <div className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full overflow-hidden shadow-2xl mb-8 border-4 border-blue-500 hover:scale-110 transition-transform mt-6 sm:mt-0">
+        <div className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full overflow-hidden shadow-2xl mb-8 border-4 border-blue-500 hover:scale-110 transition-transform mt-3 sm:mt-6 md:mt-12 lg:mt-18">
           <img
             src={img}
             alt="Adnan Ali Shah"
