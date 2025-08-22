@@ -10,10 +10,10 @@ export default function Hero() {
       <div className="absolute bottom-0 right-0 w-48 sm:w-64 md:w-80 h-48 sm:h-64 md:h-80 bg-purple-600 opacity-20 rounded-full blur-3xl animate-pulse"></div>
 
       {/* Hero Container */}
-      <div className="relative bg-gray-900 shadow-2xl rounded-3xl p-6 sm:p-10 md:p-14 lg:p-16 max-w-6xl w-full flex flex-col md:flex-row items-center gap-10">
+      <div className="relative bg-gray-900 shadow-2xl rounded-3xl p-6 sm:p-10 md:p-14 lg:p-16 mt-5 sm:mt-10 md:mt-20 lg:mt-25 max-w-6xl w-full flex flex-col md:flex-row items-center gap-10">
         
         {/* Portrait Section - TOP on mobile */}
-        <div className="flex-1 relative flex justify-center order-1 md:order-2">
+        <div className="flex-1 relative flex justify-center order-1 md:order-2 mt-3 sm:mt-6 md:mt-12 lg:mt-18">
           <div className="w-40 sm:w-56 md:w-72 lg:w-96 xl:w-[28rem] shadow-lg flex items-center justify-center relative">
             
             {/* Floating Tech Stack Icons */}
